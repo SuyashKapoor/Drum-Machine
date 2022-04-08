@@ -1,0 +1,55 @@
+*
+{
+    margin : 0px;
+    padding : 0px;
+}
+body
+{
+    height: 50vw;
+    width: 100vw;
+    background-image: url("/1. Drum Machine/background.jpeg");
+    background-size: 100% 100%;
+}
+.keys
+{
+    width: 90%;
+    position: relative;
+    top: 30vh;
+    height: 20vh;
+    display: flex;
+    margin: 0 auto;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+}
+.key{
+    border: 4px solid black;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all 2.09s;
+    width: 100px;
+    color: white;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4);
+    text-shadow: 0 0 5px black;
+}
+kbd
+{
+    display: block;
+    font-size: 40px;
+}
+span
+{
+    font-size: 2 rem;
+    color: yellow;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.playing
+{
+    transform: scale(2);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
